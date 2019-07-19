@@ -1,0 +1,22 @@
+module MicroserviceDemo{
+interface DoUser{
+    int echoHello(string name, out string greeting);
+    string login(string username, string password);
+    string register(string username, string password, string email, string first, string last);
+    string customers();
+    string deleteCustomerById(string id);
+    string findCustomerById(string id);
+    string findCustomerCardById(string id);
+    string findCustomerAddressById(string id);
+
+     string cards();
+     string addCard(string longNum, string expires, string ccv, string userID);
+     string deleteCardById(string id);
+     string findCardById(string id);
+
+     string addresses();
+     string addAddress(string street, string number, string country, string city, string postcode, string userID);
+     string deleteAddressById(string id);
+     string findAddressById(string id);
+};
+};

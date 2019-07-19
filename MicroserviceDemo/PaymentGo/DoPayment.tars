@@ -1,0 +1,7 @@
+module MicroserviceDemo{
+interface DoPayment{
+    int echoHello(string name, out string greeting);
+    string health();
+    string authorise(float amount);
+};
+};

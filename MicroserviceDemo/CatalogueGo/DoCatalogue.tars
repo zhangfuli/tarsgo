@@ -1,0 +1,9 @@
+module MicroserviceDemo{
+interface DoCatalogue{
+    int echoHello(string name, out string greeting);
+    string catalogue();
+    string catalogueId(string id);
+    string count();
+    string tags();
+};
+};

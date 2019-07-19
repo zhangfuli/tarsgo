@@ -75,3 +75,8 @@ J2GO_FLAG   := -outdir=vendor ${J2GO_FLAG}
 - 运行make && make tar会生成[Server]的文件
 - **启动运行./[Server] --config = [Server].config**
 - 在$(GOPATH)/src/[App]/[Server]/client下编写客户端代码测试, 注意要与[Server].config的端口一致
+
+
+### TarsGo编程过程中的Bug(或者我暂时不会用)
+
+- [Servant].tars 中不能使用json or 自定义结构体 or 数组?
